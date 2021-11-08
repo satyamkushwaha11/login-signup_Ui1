@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width:400px) {
+    .container{
+        /* justify-content: center; */
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+        /* margin: 0 auto; */
+    
+    }
+}
+
+body{
+    background-color: rgb(200, 243, 243);
+}
+.container{
+    display: flex;
+    height: 500px;
+    width:800px;
+    
+    margin: auto;
+    margin-top: 7%;
+    
+
+}
+.form{
+    display: flex;
+    
+    flex-direction: column;
+    width: 53%;
+    
+    background-color: rgb(252, 247, 247);
+    border-radius: 30px 00px 00px 30px;
+    
+}
+
+.image{
+
+    width:47% ;
+    /* border-radius: 0px 40px 30px 0px; */
+    border-radius: 0px 30px 30px 0px;
+
+}
+
+.start{
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.logwith{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-top: 5%;
+    padding-left: 28%;
+    padding-right: 20%;
+}
+.acc{
+    display: flex;
+    
+    padding-top: 1%;
+    padding-bottom: 2%; 
+    border: 1px solid black;
+    border-radius: 20px;
+    justify-content: center;
+}
+.acc>img{
+    width: 9%;
+    height: 90%;
+    margin-top: 1%;
+    margin-right: 1%;
+}
+
+.acc>p{
+    display: inline;
+    font-size: 80%;
+    padding-top: 3%;
+}
+
+hr{
+    margin: 2px;
+    width: 81px;
+    height: 2px;    ;
+}
+
+.hr{
+    padding: 5%;
+    margin: 3px;
+    font-size: 84%;
+    margin-left: 14%;
+    display: flex;
+}
+.logdetail{
+    display: flex;
+    flex-direction: column;
+    gap: 15%;
+
+
+}
+.input_group{
+    padding-left: 19%;
+    
+}
+.inp{
+    margin-left: 6%;
+    margin-top: 1%;
+    width: 80%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+
+}
+.forg{
+    padding-left:63%;
+    padding-top: 1%;
+}
+
+
+.sub_button{
+    margin-left: 28%;
+    margin-top: 5%;
+}
+.button{
+    color: #fff;
+    /* outline: none; */
+    width: 71%;
+    height: 157%;
+    border: 1px solid #fff;
+    border-radius: 48px;
+    background-color: rgb(165, 24, 165)
+}
